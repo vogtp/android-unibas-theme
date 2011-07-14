@@ -25,6 +25,7 @@
         <item name="android:background">@android:color/white</item>
     </style>
     <style name="appListview" parent="android:Widget.ListView">
+        <item name="android:cacheColorHint">#00000000</item>
         <item name="android:background">@android:color/white</item>
     </style>
     <style name="bottomBar" parent="android:Widget.TextView">
