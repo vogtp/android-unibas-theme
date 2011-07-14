@@ -8,12 +8,23 @@
 	<style name="WindowTitleBackground">     
         <item name="android:background">#1ca6d4</item>                   
     </style>
+    <style name="textviewWhite">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+    <style name="textviewBlack">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
     <style name="appWindow">
         <item name="android:orientation">vertical</item>
         <item name="android:background">#1ca6d4</item>
     </style>
     <style name="appGrid" parent="android:Widget.GridView">
         <item name="android:numColumns">3</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <style name="appListview" parent="android:Widget.ListView">
         <item name="android:background">@android:color/white</item>
     </style>
     <style name="bottomBar" parent="android:Widget.TextView">
