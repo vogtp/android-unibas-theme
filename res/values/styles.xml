@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"> 
+	<color name="backgroundUni">@android:color/white</color>
+	<color name="unituerkis">#1ca6d4</color>
+
     <style name="unibas_turquoise" parent="android:Theme"> 
         <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>   
     </style> 
     <style name="android" parent="android:Theme"> 
     </style> 
 	<style name="WindowTitleBackground">     
-        <item name="android:background">#1ca6d4</item>                   
+        <item name="android:background">@color/unituerkis</item>                   
     </style>
     <style name="textviewWhite">
-        <item name="android:background">@android:color/white</item>
+        <item name="android:background">@color/backgroundUni</item>
         <item name="android:textColor">@android:color/darker_gray</item>
     </style>
     <style name="textviewBlack">
-        <item name="android:background">@android:color/white</item>
+        <item name="android:background">@color/backgroundUni</item>
         <item name="android:textColor">@android:color/black</item>
     </style>
     <style name="appWindow">
         <item name="android:orientation">vertical</item>
-        <item name="android:background">#1ca6d4</item>
+        <item name="android:background">@color/unituerkis</item>
     </style>
     <style name="appGrid" parent="android:Widget.GridView">
         <item name="android:numColumns">3</item>
@@ -26,7 +29,7 @@
     </style>
     <style name="appListview" parent="android:Widget.ListView">
         <item name="android:cacheColorHint">#00000000</item>
-        <item name="android:background">@android:color/white</item>
+        <item name="android:background">@color/backgroundUni</item>
     </style>
     <style name="bottomBar" parent="android:Widget.TextView">
         <item name="android:background">@drawable/unituerkis</item>
