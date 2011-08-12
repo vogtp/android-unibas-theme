@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android"> 
+
 	<color name="backgroundUni">@android:color/white</color>
-	<color name="unituerkis">#1ca6d4</color>
+	<color name="unituerkis">#1ca6d4</color> 
+	
+	<style name="ActionBarUnibas" parent="@style/ActionBar">
+        <item name="android:background">@color/unituerkis</item>
+    </style>
 
     <style name="unibas_turquoise" parent="android:Theme"> 
         <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>   
