@@ -35,6 +35,8 @@
     <style name="appListview" parent="android:Widget.ListView">
         <item name="android:cacheColorHint">#00000000</item>
         <item name="android:background">@color/backgroundUni</item>
+        <item name="android:divider">@color/unituerkis</item> 
+        <item name="android:dividerHeight">1dp</item>
     </style>
     <style name="bottomBar" parent="android:Widget.TextView">
         <item name="android:background">@drawable/unituerkis</item>
