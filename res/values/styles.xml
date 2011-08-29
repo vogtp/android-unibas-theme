@@ -3,6 +3,7 @@
 
 	<color name="backgroundUni">@android:color/white</color>
 	<color name="unituerkis">#1ca6d4</color> 
+	<color name="unituerkisalpha">#cc1ca6d4</color>
 	
 	<style name="ActionBarUnibas" parent="@style/ActionBar">
         <item name="android:background">@color/unituerkis</item>
